@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Свой маникюрный кабинет по соцконтракту — субсидия до 350 000 ₽</title>
+<style>
+  :root{
+    --bg:#FDF8F4;
+    --ivory:#FFFFFF;
+    --rose:#E8A598;
+    --terra:#C97B63;
+    --green:#3B6B5E;
+    --green-dark:#2E5448;
+    --text:#3A322E;
+    --muted:#7A6E66;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Manrope',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    background:var(--bg);color:var(--text);line-height:1.6;font-size:17px;
+    padding-bottom:72px;
+  }
+  h1,h2,h3{font-family:Georgia,'Playfair Display',serif;font-weight:700;line-height:1.2}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  section{padding:56px 0}
+  h2{font-size:30px;margin-bottom:10px;text-align:center}
+  .sub{color:var(--muted);text-align:center;max-width:680px;margin:0 auto 32px;font-size:18px}
+
+  /* HERO */
+  .hero{background:linear-gradient(160deg,#FDF8F4 0%,#F6E7E0 100%);text-align:center;padding:64px 0 56px}
+  .hero h1{font-size:38px;max-width:760px;margin:0 auto 18px}
+  .hero h1 span{color:var(--terra)}
+  .hero p.lead{font-size:19px;max-width:680px;margin:0 auto 14px;color:var(--text)}
+  .hero p.trust{font-size:15px;color:var(--muted);max-width:560px;margin:0 auto 28px}
+  .micro{font-size:14px;color:var(--muted);margin-top:12px}
+
+  /* BUTTONS */
+  .btn{
+    display:inline-block;background:var(--green);color:#fff;text-decoration:none;
+    padding:16px 34px;border-radius:40px;font-weight:700;font-size:18px;
+    box-shadow:0 8px 20px rgba(59,107,94,.25);transition:.2s;border:none;cursor:pointer;
+  }
+  .btn:hover{background:var(--green-dark);transform:translateY(-2px)}
+  .btn-terra{background:var(--terra);box-shadow:0 8px 20px rgba(201,123,99,.25)}
+  .btn-terra:hover{background:#b5694f}
+  .center{text-align:center;margin-top:28px}
+
+  /* PAIN */
+  .pain{background:var(--ivory)}
+  .check-list{max-width:720px;margin:0 auto;list-style:none}
+  .check-list li{position:relative;padding:12px 0 12px 38px;border-bottom:1px solid #f0e6df}
+  .check-list li:before{content:"✓";position:absolute;left:0;top:11px;color:var(--green);
+    font-weight:700;background:#e7f0ec;width:26px;height:26px;border-radius:50%;
+    text-align:center;line-height:26px;font-size:15px}
+  .closing{text-align:center;margin-top:26px;font-weight:600;font-size:18px}
+
+  /* CARDS */
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:10px}
+  .card{background:var(--ivory);border-radius:18px;padding:26px;box-shadow:0 6px 18px rgba(58,50,46,.05)}
+  .card .ico{font-size:30px;margin-bottom:10px}
+  .card h3{font-size:20px;margin-bottom:8px;color:var(--terra)}
+  .card p{font-size:16px;color:var(--muted)}
+
+  /* TRUST BLOCK */
+  .why{background:var(--green);color:#fff}
+  .why h2{color:#fff}
+  .why p{max-width:700px;margin:0 auto 16px;text-align:center;font-size:18px;color:#eaf3f0}
+  .why .plate{background:rgba(255,255,255,.12);border-radius:14px;padding:18px 22px;
+    max-width:700px;margin:18px auto 0;text-align:center;font-weight:600}
+
+  /* STEPS */
+  .steps{counter-reset:s;max-width:760px;margin:0 auto;display:grid;gap:16px}
+  .step{background:var(--ivory);border-radius:16px;padding:22px 24px 22px 70px;position:relative;
+    box-shadow:0 4px 14px rgba(58,50,46,.05)}
+  .step:before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:22px;
+    width:36px;height:36px;background:var(--terra);color:#fff;border-radius:50%;
+    text-align:center;line-height:36px;font-weight:700;font-family:Georgia,serif}
+  .step h3{font-size:19px;margin-bottom:4px}
+  .step p{color:var(--muted);font-size:16px}
+
+  /* CASES */
+  .cases{background:var(--ivory)}
+  .case{background:var(--bg);border-left:4px solid var(--terra);border-radius:0 14px 14px 0;
+    padding:22px 24px;margin-bottom:16px}
+  .case h3{font-size:18px;margin-bottom:6px}
+  .case p{font-style:italic;color:var(--muted)}
+  .case b{color:var(--terra);font-style:normal}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px;text-align:center}
+  .stat{background:var(--green);color:#fff;border-radius:14px;padding:20px 10px}
+  .stat .num{font-size:26px;font-weight:700;font-family:Georgia,serif;display:block}
+  .stat .lbl{font-size:13px;color:#dcebe6}
+
+  /* GUARANTEE */
+  .guar .cards{grid-template-columns:repeat(3,1fr)}
+
+  /* FINAL */
+  .final{background:linear-gradient(160deg,#F6E7E0 0%,#FDF8F4 100%);text-align:center}
+  .final p{max-width:640px;margin:0 auto 10px;font-size:18px}
+
+  /* FAQ */
+  .faq{max-width:760px;margin:0 auto}
+  details{background:var(--ivory);border-radius:14px;margin-bottom:12px;padding:0 22px;
+    box-shadow:0 4px 12px rgba(58,50,46,.04)}
+  summary{cursor:pointer;font-weight:700;padding:18px 0;list-style:none;font-size:17px;
+    display:flex;justify-content:space-between;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary:after{content:"+";color:var(--terra);font-size:24px;font-weight:700}
+  details[open] summary:after{content:"–"}
+  details p{padding:0 0 18px;color:var(--muted)}
+
+  /* STICKY MOBILE CTA */
+  .sticky{position:fixed;bottom:0;left:0;right:0;background:#fff;padding:10px 16px;
+    box-shadow:0 -4px 16px rgba(0,0,0,.08);z-index:50}
+  .sticky a{display:block;text-align:center}
+
+  footer{text-align:center;padding:30px 20px;color:var(--muted);font-size:13px}
+
+  @media(max-width:680px){
+    .hero h1{font-size:29px}
+    h2{font-size:25px}
+    .cards,.stats,.guar .cards{grid-template-columns:1fr}
+    body{font-size:16px}
+    .btn{width:100%;padding:16px}
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <h1>Свой маникюрный кабинет без вложений — государство даёт <span>до 350 000 ₽</span> на старт</h1>
+    <p class="lead">Помогаю мастерам маникюра получить субсидию по соцконтракту: оформляю документы, пишу бизнес-план и веду до выплаты. Вы не вкладываете ни рубля.</p>
+    <p class="trust">Уже помогла десяткам мастеров уйти с дивана и кухонного стола в собственное место. Работаю только с бьюти-сферой — знаю вашу кухню изнутри.</p>
+    <a href="#cta" class="btn">Узнать, сколько дадут именно мне →</a>
+    <p class="micro">Бесплатная консультация 20 минут. Без давления. Честно скажу — проходите вы или нет.</p>
+  </div>
+</header>
+
+<!-- PAIN -->
+<section class="pain">
+  <div class="wrap">
+    <h2>Узнали себя?</h2>
+    <ul class="check-list">
+      <li>Работаете дома или на выезде, таскаете лампу и фрезер в сумке, а клиенты спрашивают: «А у вас есть кабинет?»</li>
+      <li>Хотите своё место — кресло, вытяжка, нормальный свет, витрина с гель-лаками — но на аренду и ремонт денег нет.</li>
+      <li>Слышали про «какие-то выплаты», но уверены, что это «не для таких, как я» и «там одна бюрократия».</li>
+      <li>Может, уже пробовали — и получили отказ из-за неправильно заполненной бумажки.</li>
+    </ul>
+    <p class="closing">Кивнули хотя бы на один пункт? Читайте дальше — расскажу, как это исправить.</p>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section>
+  <div class="wrap">
+    <h2>Что вы получите по соцконтракту</h2>
+    <p class="sub">Это не кредит и не рассрочка. Это деньги от государства, которые не нужно возвращать — если потратить по делу и отчитаться (отчёт готовим вместе).</p>
+    <div class="cards">
+      <div class="card"><div class="ico">💰</div><h3>До 350 000 ₽ на ваше дело</h3><p>Точная сумма зависит от региона. Хватает на аренду, ремонт, стол, кресло, вытяжку, лампы, стерилизатор, сухожар и первую закупку: базы, топы, гель-лаки, типсы, фрезы.</p></div>
+      <div class="card"><div class="ico">📄</div><h3>Деньги, которые не надо возвращать</h3><p>Соцконтракт — безвозмездная помощь, а не заём. Никаких процентов банку. Главное — потратить по согласованному плану.</p></div>
+      <div class="card"><div class="ico">🧾</div><h3>Готовый бизнес-план под маникюр</h3><p>Пишу его за вас — под нейл-индустрию, с реальными цифрами по расходникам. Комиссия видит профессиональный документ и говорит «да».</p></div>
+      <div class="card"><div class="ico">🚀</div><h3>Своё место, а не «рабочее место»</h3><p>Не угол на кухне и не чужая аренда по часам. Кабинет, куда не стыдно позвать клиента: ваш бренд, атмосфера, расписание.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY STATE -->
+<section class="why">
+  <div class="wrap">
+    <h2>«Где подвох? Почему государство раздаёт деньги?»</h2>
+    <p>Государству выгодно, чтобы вы из «самозанятой на дому» стали официальным микробизнесом: открыли ИП или самозанятость, начали платить налоги, со временем — наняли второго мастера. Для бюджета это плюс.</p>
+    <p>Это называется <b>социальный контракт</b> и регулируется федеральным законом (ст. 8.1 № 178-ФЗ). Не «доброта» и не лотерея — рабочий инструмент, на который заложены деньги в каждом регионе.</p>
+    <div class="plate">Подвоха нет. Есть условия и отчётность. Всё остальное — мифы тех, кто так и остался на кухонном столе.</div>
+  </div>
+</section>
+
+<!-- WHO -->
+<section>
+  <div class="wrap">
+    <h2>Подходите ли вы? Проверим за 30 секунд</h2>
+    <p class="sub">Критерии чуть отличаются по регионам, но в целом крутятся вокруг этих пунктов:</p>
+    <ul class="check-list">
+      <li>Вы гражданин РФ и зарегистрированы в регионе подачи.</li>
+      <li>Доход семьи на человека ниже прожиточного минимума по региону (часто мастера проходят, даже не подозревая — посчитаем вместе).</li>
+      <li>Готовы оформить самозанятость или ИП (нет — помогу открыть бесплатно за 1 день через приложение).</li>
+      <li>Реально хотите заниматься маникюром как делом, а не «получить деньги и забыть».</li>
+    </ul>
+    <p class="closing">Не уверены по доходу? Это самый частый стоп-фактор — и чаще всего ложный. Посчитаем точно, бесплатно.</p>
+    <div class="center"><a href="#cta" class="btn btn-terra">Проверить, прохожу ли я →</a></div>
+  </div>
+</section>
+
+<!-- CASES -->
+<section class="cases">
+  <div class="wrap">
+    <h2>Уже сделали это — и вы сможете</h2>
+    <p class="sub">Работаю именно с бьюти-мастерами. Вот реальные истории (имена изменены).</p>
+    <div class="case"><h3>Алина, 28 лет — из угла на кухне в свой кабинет</h3><p>«Три года принимала дома: лампа на тумбочке, фрезер в коробке из-под обуви, кот в типсах. Стеснялась звать новых клиентов. Получила <b>246 000 ₽</b>, сняла кабинет, купила стол, кресло с вытяжкой, сухожар. Запись теперь на две недели вперёд.»</p></div>
+    <div class="case"><h3>Марина, 34 года — после отказа с первого раза</h3><p>«Подавала сама — отказали: неправильно посчитала доход и завалила план. Со второго раза, уже с нормальным планом под маникюр, получила <b>300 000 ₽</b>. Поняла: отказ — это не "нельзя", это "подали неправильно".»</p></div>
+    <div class="case"><h3>Карина, 25 лет — без ИП и опыта в документах</h3><p>«Боялась даже самозанятость открывать. Оказалось — 15 минут в приложении. План писали вместе, я только называла цифры по расходникам. Получила <b>280 000 ₽</b>, открыла кабинет на двоих с подругой.»</p></div>
+    <div class="stats">
+      <div class="stat"><span class="num">__</span><span class="lbl">мастеров получили субсидию</span></div>
+      <div class="stat"><span class="num">__ ₽</span><span class="lbl">средняя выплата</span></div>
+      <div class="stat"><span class="num">__%</span><span class="lbl">доходят до выплаты</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section>
+  <div class="wrap">
+    <h2>Как мы получим вашу субсидию — по шагам</h2>
+    <p class="sub">Веду вас за руку от первого звонка до денег на счёте.</p>
+    <div class="steps">
+      <div class="step"><h3>Бесплатная консультация (20 минут)</h3><p>Считаю доход, проверяю по критериям, честно говорю: проходите или нет.</p></div>
+      <div class="step"><h3>Готовим документы</h3><p>Собираем справки по чек-листу, при необходимости открываем самозанятость или ИП. Большую часть — онлайн.</p></div>
+      <div class="step"><h3>Пишу бизнес-план под ваш маникюр</h3><p>Расходы на оборудование и материалы, прогноз по записи и доходу. План, который одобряют, а не отправляют на доработку.</p></div>
+      <div class="step"><h3>Подаём заявку</h3><p>Сопровождаю подачу, проверяю каждую бумажку, подсказываю, что говорить на комиссии.</p></div>
+      <div class="step"><h3>Деньги и открытие кабинета</h3><p>Получаете выплату, закупаете оборудование и материалы. Помогаю с отчётностью.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section class="guar" style="background:var(--ivory)">
+  <div class="wrap">
+    <h2>Боитесь, что зря потратите время?</h2>
+    <p class="sub">Я не беру в работу тех, кто точно не пройдёт. Шансы видно на бесплатной консультации.</p>
+    <div class="cards">
+      <div class="card"><div class="ico">🤝</div><h3>Честная оценка до старта</h3><p>Не подходите — узнаете на первой консультации. Бесплатно. Без «давайте всё-таки попробуем за ваш счёт».</p></div>
+      <div class="card"><div class="ico">📋</div><h3>Веду до результата</h3><p>Не бросаю на полпути: от документов до выплаты и помощи с отчётом.</p></div>
+      <div class="card"><div class="ico">🔁</div><h3>Отказали раньше — не приговор</h3><p>Разберём, что было не так, и подадим правильно.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final" id="cta">
+  <div class="wrap">
+    <h2>Ваш кабинет уже ждёт. Осталось решиться</h2>
+    <p>Пока вы сомневаетесь, кто-то в вашем городе уже записался на консультацию. Деньги в региональном бюджете распределяют, пока они есть.</p>
+    <p>Это бесплатно и ни к чему не обязывает.</p>
+    <div class="center"><a href="https://wa.me/__ВАШ_НОМЕР__" class="btn">Записаться на бесплатную консультацию →</a></div>
+    <p class="micro">Отвечу в Директе или WhatsApp в течение дня. Без спама и навязчивых звонков.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <h2>Частые вопросы</h2>
+    <div class="faq">
+      <details><summary>Это точно бесплатные деньги? Их не надо возвращать?</summary><p>Да. Соцконтракт — безвозмездная господдержка, а не кредит. Возвращать нужно, только если потратить не по плану или не отчитаться. План и отчёт готовим вместе.</p></details>
+      <details><summary>У меня нет ИП и самозанятости. Это проблема?</summary><p>Нет. Многие приходят без оформления. Самозанятость открывается за 15 минут в приложении, бесплатно, помогаю с этим я.</p></details>
+      <details><summary>Мне уже отказывали. Зачем пробовать снова?</summary><p>Отказ почти всегда — это ошибка в документах или слабый план, а не «вам нельзя». Повторно подавать можно. Разберём прошлый отказ.</p></details>
+      <details><summary>Сколько денег я реально получу?</summary><p>Зависит от региона — ориентир до 350 000 ₽. Точную сумму назову на консультации. Хватает на оборудование и первую закупку материалов.</p></details>
+      <details><summary>А налоги и проверки? Это не страшно?</summary><p>На самозанятости налог 4–6% с дохода, всё в приложении, без деклараций. «Проверка» — это отчёт о тратах по плану, помогаю его оформить.</p></details>
+      <details><summary>Сколько времени занимает процесс?</summary><p>В среднем от нескольких недель до пары месяцев — зависит от региона и скорости сбора документов.</p></details>
+      <details><summary>Сколько стоят ваши услуги?</summary><p>Первая консультация бесплатна. Стоимость сопровождения скажу честно на созвоне — после того как пойму, что вы проходите.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="y"></span> __Ваше имя / бренд__ · Суммы и условия зависят от региона. Решение о выплате принимает комиссия.
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</footer>
+
+<!-- STICKY MOBILE CTA -->
+<div class="sticky">
+  <a href="#cta" class="btn">Записаться на консультацию</a>
+</div>
+
+</body>
+</html>
+    
+  </body>
+  
+</html>
